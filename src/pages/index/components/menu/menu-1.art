@@ -1,0 +1,3 @@
+{{each items}}
+    <span>{{$value}}</span>
+{{/each}}

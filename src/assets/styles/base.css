@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'PingFang-SC-Regular';
+    src: url(../fonts/PingFang-SC-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PingFang-SC-Medium';
+    src: url(../fonts/PingFang-SC-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon-v1.0/fonts/icomoon.ttf');
+    src: url('../fonts/icomoon-v1.0/fonts/icomoon.eot') format('embedded-opentype'),
+        url('../fonts/icomoon-v1.0/fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon-v1.0/fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon-v1.0/fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-outline-right:before {
+    content: "\e904";
+    color: #fff;
+    font-size: 48px;
+}
+
+.icon-arrow-right-alt1:before {
+    content: "\e905";
+
+}
+
+.icon-search:before {
+    content: "\e901";
+}
+
+.icon-zoom:before {
+    content: "\e901";
+    color: #fff;
+}
+
+.icon-magnifier:before {
+    content: "\e901";
+}
+
+.icon-magnifying-glass:before {
+    content: "\e901";
+}
+
+.icon-sina-weibo:before {
+    content: "\e902";
+    color: #fff;
+}
+
+.icon-wechat:before {
+    content: "\e903";
+    color: #fff;
+}
+
+.icon-qq:before {
+    content: "\e900";
+    color: #fff;
+}
+
+.icon-circle-right:before {
+    content: "\ea42";
+}
+
+body {
+    font-family: 'PingFang-SC-Regular';
+}
+
+span {
+    cursor: default;
+}
+
+dl,
+dd,
+dt {
+    cursor: default;
+}

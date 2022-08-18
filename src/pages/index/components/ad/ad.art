@@ -1,0 +1,5 @@
+<div class="nav5">
+{{each items}}
+    <a href=""><img src="{{$value.url}}" alt=""></a>
+{{/each}}
+</div>

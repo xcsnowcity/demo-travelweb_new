@@ -1,0 +1,6 @@
+<div class="nav9">
+    <h2>特色当地体验</h2>
+    <ul>
+      {{include '../../../../components/loading/load.art'}}
+    </ul>
+</div>

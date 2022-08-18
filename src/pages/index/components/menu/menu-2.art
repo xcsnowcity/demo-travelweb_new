@@ -1,0 +1,6 @@
+<dl>
+    {{each items}}
+        <dt>{{$value.title}}</dt>
+        <%include('./menu3.art',{items:$value.cities})%>
+    {{/each}}
+ </dl>

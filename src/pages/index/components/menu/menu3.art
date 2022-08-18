@@ -1,0 +1,5 @@
+<dd>
+    {{each items}}
+        <a href="{{$value.link}}">{{$value.text}}</a>
+    {{/each}}
+</dd>

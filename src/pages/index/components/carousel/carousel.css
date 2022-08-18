@@ -1,0 +1,48 @@
+.banner>ul#carousel {
+    overflow: hidden;
+    width: 8130px;
+    transition: transform .6s ease 0s;
+
+}
+
+.banner>ul#carousel li {
+    float: left;
+}
+
+.banner .banner-img {
+    display: block;
+    height: 420px;
+    width: 1355px;  
+    
+}
+
+.banner ol {
+    width: 100px;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.banner ol li {
+    float: left;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
+
+.banner ol li:last-child{
+    margin-right: 0;
+
+}
+
+.banner ol li.cur {
+    background-color: #15AF7A;
+    width: 20px;
+}

@@ -1,0 +1,22 @@
+<div class="nav8">
+    <div class="head hd">
+        <div class="left">
+            <h2>当地玩乐</h2>
+            <span>向当地人一样，体验本土的吃喝玩乐</span>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href=""> 国内</a></li>
+                <li><a href=""> 日本</a></li>
+                <li><a href=""> 瑞士</a></li>
+                <li><a href=""> 新西兰</a></li>
+                <li><a href=""> 澳大利亚</a></li>
+                <li><a href=""> 柬埔寨</a></li>
+                <li><a href=""> 泰国</a></li>
+            </ul>
+        </div>
+    </div>
+     <div class="items">
+        {{include '../../../../components/loading/load.art'}}
+    </div>
+</div>

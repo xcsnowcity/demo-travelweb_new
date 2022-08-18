@@ -1,0 +1,15 @@
+{{each items}}
+    <li>
+        <a href="">
+            <div class="picbox"><img src="{{$value.url}}" alt=""></div>
+            <div class="info">
+                <p class="desc">{{$value.title}}</p>
+                <p class="comment">
+                <span class="score">★{{$value.score}}</span>
+                    <span>({{$value.comment_counts}}评价)</span>
+                    <span>{{$value.join_counts}}人参加过</span>
+                </p>
+            </div>
+        </a>
+    </li>
+{{/each}}

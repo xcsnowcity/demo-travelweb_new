@@ -1,0 +1,161 @@
+.topbar2 {
+    margin: 0 auto;
+    width: 1355px;
+    height: 40px;
+    background-color: #20BD9A;
+}
+
+.topbar2 .nav2 {
+    height: 40px;
+    /* 用flex设置垂直居中要设置父盒子的高度 */
+    width: 1152px;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+}
+
+/* .topbar2 .nav2 > ul {
+    overflow: hidden;
+} */
+
+.topbar2 .nav2 > ul > li {
+    height: 40px;
+    float: left;
+    margin-right: 18px;
+    display:flex;
+    align-items:center;
+    font-size: 16px;
+    position: relative;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(1) {
+    width: 96px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(2) {
+    width: 64px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(3) {
+    width: 64px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(4) {
+    width: 32px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(5) {
+    width: 80px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(6) {
+    width: 32px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(7) {
+    width: 32px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(8) {
+    width: 32px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(9) {
+    width: 32px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(10) {
+    width: 64px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(11) {
+    width: 80px;
+}
+
+.topbar2 .nav2 > ul > li:nth-child(12) {
+    width: 64px;
+}
+
+.topbar2 .nav2 > ul > li a {
+    color: #fff;
+}
+
+.topbar2 .nav2 > ul > li div.arrow {
+    position: absolute;
+    right: 5px;
+    top: 18px;
+    width: 0;
+    height: 0;
+    border: solid 4px transparent;
+    border-bottom: none;
+    border-top-color: #fff;
+    transition: transform 0.5s;
+}
+
+.topbar2 .nav2 > ul > li:hover div.arrow {
+    transform: rotate(180deg);
+    /* transform-origin: 4px 0 ; */
+}
+
+.topbar2 .nav2 > ul > li .menu {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20);
+    background-color: #fff;
+    top: 33px;
+    z-index: 9999;
+    display: none;
+    padding: 6px 0 6px 8px;
+}
+
+.topbar2 .nav2 > ul > li:hover .menu {
+    display: block;
+}
+
+.topbar2 .nav2 > ul > li .menu1 {
+    width: 160px;
+    /* height: 72px; */
+}
+
+.topbar2 .nav2 > ul > li .menu2 {
+    width: 100px;
+    /* height: 54px; */
+}
+
+.topbar2 .nav2 > ul > li .menu3 {
+    width: 168px;
+    /* height: 91px; */
+}
+
+.topbar2 .nav2 > ul > li .menu4 {
+    width: 114px;
+    /* height: 72px; */
+}
+
+.topbar2 .nav2 > ul > li .menu dl {
+    height: 22px;
+}
+
+.topbar2 .nav2 > ul > li .menu dt a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #1C1F21;
+    line-height: 22px;
+    width: 100%;
+
+}
+
+.topbar2 .nav2 > ul > li .menu dt a:hover {
+    color: #20BD9A;
+} 
+
+.topbar2 .nav2 > ul > li .menu dd a {
+    font-size: 12px;
+    color: #1C1F21;
+    line-height: 18px;
+    margin-right: 6px;
+    float: left;
+}
+
+.topbar2 .nav2 > ul > li .menu dd a:hover {
+    color: #20BD9A;
+}

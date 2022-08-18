@@ -1,0 +1,18 @@
+<div class="nav6">
+    <div class="head">
+        <h2>新鲜甩尾</h2>
+        <span>每日不可不看的好货</span>
+    </div>
+    <div class="items">
+        <ul>
+        {{each items}}
+            <li>
+                <a href="">
+                    <div class="picbox"><img src="{{$value.url}}" alt=""></div>
+                    <span class="desc">{{$value.title}}</span>
+                </a>
+            </li>
+        {{/each}}
+        </ul>
+    </div>
+</div>

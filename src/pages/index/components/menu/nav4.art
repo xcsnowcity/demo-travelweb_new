@@ -1,0 +1,23 @@
+<div class="nav4" id="nav4">
+    {{include '../carousel/btn.art'}}
+    <ul id="nav4-ul">
+    {{each items}}
+        <li class="{{$value.key}}" data-li="{{$value.key}}">
+            <dl>
+                <dt>{{$value.title}}</dt>
+                <dd>
+               <% include('./menu-1.art',{items:$value.subTitles})%>
+                </dd>
+            </dl>
+        </li>
+    
+    {{/each}}
+    </ul>
+    {{each items}}
+    <div class="right{{$value.index}} right" data-li="{{$value.key}}" id="{{$value.key}}">
+        {{include '../../../../components/loading/load.art'}}
+    </div>
+    {{/each}}
+  
+    
+</div>

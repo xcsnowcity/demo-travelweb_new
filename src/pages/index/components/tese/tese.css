@@ -1,0 +1,5 @@
+.nav9>ul .comment {
+    display: flex ;
+    width: 100%;
+    justify-content: space-between;
+}

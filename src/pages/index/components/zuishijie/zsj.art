@@ -1,0 +1,60 @@
+<div class="nav10 navx">
+                <div class="head hd">
+                    <div class="left">
+                        <h2>最世界·深度旅行</h2>
+                        <span>摆脱千篇一律的旅行，探索属于自己的世界</span>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li><a href="">城市CityWalk</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="large cover">
+                        <a href="">
+                            <div class="coverbox"></div>
+                            <div class="infobox">城市CityWalk</div>
+                            <div class="wordbox">【City Walk】大阪浪花の城——美食、动漫和不为人知的大阪人辛秘生活</div>
+                            <div class="picbox"><img src="./images/yh.png" alt=""></div>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <a href="">
+                            <div class="picbox"><img src="./images/zsj2.png" alt=""></div>
+                            <p>[City Walk] 京都伏见稻荷大社日本清酒厂巡礼半日游——赏千本鸟居…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <a href="">
+                            <div class="picbox"><img src="./images/zsj3.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <a href="">
+                            <div class="picbox"><img src="./images/zsj4.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <a href="">
+                            <div class="picbox"><img src="./images/zsj5.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <a href="">
+                            <div class="picbox"><img src="./images/zsj6.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small more">
+                        <a href="">
+                            <p>查看更多<br>深度旅行产品</p>
+                            <div class="icon-arrow-outline-right"></div>
+                            <p>日游&nbsp;&nbsp;|&nbsp;&nbsp;周末&nbsp;&nbsp;|&nbsp;&nbsp;亲子&nbsp;&nbsp;|&nbsp;&nbsp;长线</p>
+                        </a>
+                    </div>
+                </div>
+            </div>

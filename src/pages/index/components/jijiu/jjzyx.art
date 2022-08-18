@@ -1,0 +1,73 @@
+ <div class="nav7 navx">
+                <div class="head hd">
+                    <div class="left">
+                        <h2>机酒自由行</h2>
+                        <span>挑选全球机票、酒店等旅行产品</span>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li><a href="">近期好货</a></li>
+                            <li><a href="">新品汇聚</a></li>
+                            <li><a href="">定制游</a></li>
+                            <li> <a href="">国内推荐</a></li>
+                            <li><a href="">优惠机票</a></li>
+                            <li><a href="">热门海岛</a></li>
+                            <li><a href="">热卖签证</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="large">
+                        <div class="info">机票</div>
+                        <a href="">
+                            <div class="picbox"><img src="./images/jjzyx1.png" alt=""></div>
+                            <div class="desc">
+                                <p>[樱花季]天津直飞东京/大阪/名古屋/冲绳/札幌2-30天往返</p>
+                                <p>含税机票【甩尾/多团期】</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <div class="info">跟团游</div>
+                        <a href="">
+                            <div class="picbox"><img src="./images/jjzyx3.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <div class="info">机票</div>
+                        <a href="">
+                            <div class="picbox"><img src="./images/jjzyx3.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <div class="info">机票</div>
+                        <a href="">
+                            <div class="picbox"><img src="./images/jjzyx4.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <div class="info">机票</div>
+                        <a href="">
+                            <div class="picbox"><img src="./images/jjzyx5.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <div class="info">机票</div>
+                        <a href="">
+                            <div class="picbox"><img src="./images/jjzyx6.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small more">
+                        <a href="">
+                            <p>查看更多<br>机酒自由行产品</p>
+                            <div class="icon-arrow-outline-right"></div>
+                            <p>机票&nbsp;&nbsp;|&nbsp;&nbsp;酒店&nbsp;&nbsp;|&nbsp;&nbsp;机+酒&nbsp;&nbsp;|&nbsp;&nbsp;邮轮</p>
+                        </a>
+                    </div>
+                </div>
+            </div>

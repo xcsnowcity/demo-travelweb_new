@@ -1,0 +1,66 @@
+<div class="topbar2">
+    <div class="nav2">
+        <ul>
+            <li><a href="" class="arrow">机酒自由行</a>
+                <div class="arrow"></div>
+                <div class="menu menu1">
+                    <dl>
+                        <dt><a href="">全部</a> </dt>
+                        <dd><a href="">自由行</a></dd>
+                        <dd><a href="">优惠机票</a></dd>
+                        <dd><a href="">酒店</a></dd>
+                        <dd><a href="">邮轮</a></dd>
+                        <dd><a href="">定制游</a></dd>
+                        <dd><a href="">马尔代夫</a></dd>
+                        <dd><a href="">海岛游</a></dd>
+                    </dl>
+                </div>
+            </li>
+            <!-- 更聪明的做法应该是用::before伪元素来设置arrow三角形 -->
+            <li><a href="">优惠机票</a></li>
+            <li><a href="" class="arrow">跟团游</a>
+                <div class="arrow"></div>
+                <div class="menu menu2">
+                    <dl>
+                        <dt><a href="">全部</a> </dt>
+                        <dd><a href="">跟团游</a></dd>
+                        <dd><a href="">半自助游</a></dd>
+                    </dl>
+                </div>
+            </li>
+            <li><a href="">酒店</a></li>
+            <li><a href="" class="arrow">当地玩乐</a>
+                <div class="arrow"></div>
+                <div class="menu menu3">
+                    <dl>
+                        <dt><a href="">全部</a> </dt>
+                        <dd><a href="">日游小团</a></dd>
+                        <dd><a href="">深度体验</a></dd>
+                        <dd><a href="">门票票券</a></dd>
+                        <dd><a href="">餐饮美食</a></dd>
+                        <dd><a href="">WIFI电话卡</a></dd>
+                        <dd><a href="">购物</a></dd>
+                        <dd><a href="">交通票券</a></dd>
+                    </dl>
+                </div>
+            </li>
+            <li><a href="">签证</a></li>
+            <li><a href="">游轮</a></li>
+            <li><a href="">河轮</a></li>
+            <li><a href="">保险</a></li>
+            <li><a href="">租车自驾</a></li>
+            <li><a href="" class="arrow">深度旅游</a>
+                <div class="arrow"></div>
+                <div class="menu menu4">
+                    <dl>
+                        <dt><a href="">全部</a> </dt>
+                        <dd><a href="">CityWalk</a></dd>
+                        <dd><a href="">特色长线</a></dd>
+                        <dd><a href="">Q-HOME</a></dd>
+                    </dl>
+                </div>
+            </li>
+            <li><a href="">私人定制</a></li>
+        </ul>
+    </div>
+</div>

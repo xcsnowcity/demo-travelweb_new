@@ -1,0 +1,11 @@
+.loading-layout {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.loading-inline .fi,
+.loading-inline .loading-words {
+    display: inline;
+}

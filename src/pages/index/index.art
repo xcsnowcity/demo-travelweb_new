@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慕云游商城 - 机票、酒店、旅游攻略</title>
+    <meta name="keywords" content="机票，旅游，酒店，旅游攻略，签证，自由行，驴友">
+    <meta name="description" content="慕云游商城提供全网最全最优惠机票、酒店、旅游路线相关服务">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+
+<body>
+    <header>
+        {{include '../../components/topbar/topbar.art'}}
+        {{include '../../components/main_nav/topbar2.art'}}
+        {{include '../../components/header_con/topbar3.art'}}
+    </header>
+
+    <section class="banner" id="imageBanner">
+        {{include './components/carousel/carousel.art'}}
+        <div id='menu-layout'>
+            {{include '../../components/loading/load.art'}}
+        </div>
+    </section>
+
+    <section class="ads">
+        {{include '../../components/loading/load.art'}}
+    </section>
+
+    <section class="content-part">
+        <section class="new">
+            {{include '../../components/loading/load.art'}}
+        </section>
+
+        <section class="travel eq">
+           {{include './components/jijiu/jjzyx.art'}}
+        </section>
+
+        <section class="play">
+            {{include './components/localplay/localplay.art'}}
+        </section>
+
+        <section class="local">
+            {{include './components/tese/tese.art'}}
+        </section>
+
+        <section class="world eq">
+            {{include './components/zuishijie/zsj.art'}}
+        </section>
+
+        <section class="group eq">
+           {{include './components/group/group.art'}}
+        </section>
+    </section>
+
+    <footer>
+        <section class="footer-top">
+            {{include '../../components/footer_nav/footer-top.art'}}
+        </section>
+        <section class="footer-bottom">
+            {{include '../../components/bottom_bar/footer-bottom.art'}}
+        </section>
+    </footer>
+
+    <!-- 返回顶部 -->
+    {{include '../../components/back_to_top/back.art'}}
+</body>
+
+</html>

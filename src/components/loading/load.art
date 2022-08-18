@@ -1,0 +1,4 @@
+<div class="loading-layout {{inline?'loading-inline':''}}">
+    <i class="fi fi-rr-loading"></i>
+    <div class="loading-words">{{text?text:'加载中...'}}</div>
+</div>

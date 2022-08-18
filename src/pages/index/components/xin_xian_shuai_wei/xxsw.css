@@ -1,0 +1,67 @@
+.new .nav6 {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.new .nav6 .head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+
+.new .nav6 .head h2 {
+    width: 144px;
+    height: 54px;
+    font-family: 'PingFang-SC-Medium';
+    color: #1C1F21;
+    font-size: 36px;
+    line-height: 54px;
+    margin-right: 12px;
+    cursor: default;
+}
+
+.new .nav6 .head span {
+    width: 108px;
+    height: 18px;
+    color: #1C1F21;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.new .nav6 .items {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.new .nav6 .items ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.new .nav6 .items ul li {
+    width: 264px;
+    height: 270px;
+    margin-right: 32px;
+    background-color: #fff;
+    margin-top: 32px;
+}
+
+.new .nav6 .items ul li:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
+}
+
+.new .nav6 .items ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.new .nav6 .items ul li a span {
+    display: block;
+    background-color: #fff;
+    color: #1C1F21;
+    font-size: 14px;
+    line-height: 22px;
+    cursor: pointer;
+    padding: 10px 14px;
+}

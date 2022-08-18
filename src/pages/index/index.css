@@ -1,0 +1,501 @@
+.banner {
+    height: 420px;
+    width: 1355px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.ads {
+    width: 1355px;
+    margin: 32px auto;
+    height: 110px;
+}
+
+.new {
+    box-sizing: border-box;
+    width: 1355px;
+    height: 738px;
+    padding: 40px;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+
+}
+
+.eq {
+    width: 1355px;
+    height: 738px;
+    padding: 40px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.eq .navx,
+.play .nav8,
+.local .nav9 {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.hd {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
+
+}
+
+.hd .left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.hd h2 {
+    height: 54px;
+    font-family: 'PingFang-SC-Medium';
+    color: #000;
+    font-size: 36px;
+    line-height: 54px;
+    margin-right: 12px;
+    cursor: default;
+}
+
+.hd .left span {
+    height: 18px;
+    color: #000;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.hd .right ul {
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.hd .right ul li {
+    height: 22px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 14px;
+}
+
+.hd .right ul li a {
+    color: rgba(0, 0, 0, 0.85);
+    border: none;
+}
+
+.hd .right ul li a:hover {
+    color: #20BD9A;
+    border-bottom: 4px solid #20BD9A;
+    /* 似乎是js current类 */
+}
+
+.hd .right ul li:last-child {
+    margin-right: 0;
+}
+
+.eq .navx .items {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.eq .navx .items>div {
+    position: relative;
+    margin-right: 32px;
+    margin-top: 32px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.eq .navx .items>div:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
+}
+
+.eq .navx .items>div:first-child {
+    box-shadow: 0;
+}
+
+.eq .navx .items>div:nth-child(3),
+.eq .navx .items>div:nth-child(7) {
+    margin-right: 0;
+}
+
+.travel .nav7 .items>div:last-child {
+    background-image: linear-gradient(180deg, #34E3BC 0%, #15AF7A 98%);
+}
+
+.world .nav10 .items>div:last-child {
+    background-image: linear-gradient(180deg, #BD5EE8 0%, #832ABB 98%);
+}
+
+.group .nav11 .items>div:last-child {
+    background-image: linear-gradient(180deg, #41D8E9 0%, #3685EA 98%);
+}
+
+.eq .navx .items .large {
+    width: 560px;
+    height: 270px;
+}
+
+.travel .nav7 .items .large .desc {
+    position: absolute;
+    width: 100%;
+    height: 103px;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 26px 29px 26px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    box-sizing: border-box;
+    /* cursor: default; */
+
+}
+
+.eq .navx .items .small {
+    width: 264px;
+    height: 270px;
+}
+
+.eq .navx .items .small p {
+    padding: 20px 14px;
+    font-size: 14px;
+    color: #1C1F21;
+    line-height: 22px;
+}
+
+.travel .nav7 .items>div .info {
+    position: absolute;
+    width: 74px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 144px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    padding: 9px;
+    box-sizing: border-box;
+    cursor: default;
+    z-index: 9999;
+}
+
+.travel .nav7 .items>div:first-child .info {
+    top: 127px;
+}
+
+.eq .navx .items>div:last-child a {
+    display: flex;
+    /* align-items: center; */
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 264px;
+    height: 270px;
+    box-sizing: border-box;
+    padding: 46px 14px;
+}
+
+.eq .navx .items>div:last-child a p {
+    width: 236px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 22px;
+    padding: 0;
+}
+
+.play {
+    width: 1355px;
+    height: 586px;
+    padding: 40px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+}
+
+.play .nav8 .items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.play .nav8 .items .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 364px;
+    height: 420px;
+    margin-right: 30px;
+
+}
+
+.play .nav8 .items .col:last-child {
+    margin-right: 0;
+}
+
+.play .nav8 .items .col .minor {
+    /* margin-top: 30px; */
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.play .nav8 .items .col .minor:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
+}
+
+.play .nav8 .items .col:first-child a>img {
+    display: block;
+    width: 364px;
+    height: 270px;
+}
+
+.play .nav8 .items .col .minor p {
+    width: 208px;
+    padding: 27px 18px;
+    font-size: 14px;
+    color: #000000;
+    line-height: 22px;
+}
+
+.play .nav8 .items .col:first-child a:first-child {
+    position: relative;
+}
+
+.play .nav8 .items .col:first-child .desc {
+    width: 364px;
+    height: 104px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content定义一行items如何在水平方向上排列，align-items 定义一行items如何在垂直方向上排列，align-content定义多行items在垂直方向上的整体位置 ，默认值stretch*/
+    align-content: space-between;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 22px;
+    padding: 17px 21px;
+    box-sizing: border-box;
+}
+
+.play .nav8 .items .col:first-child .desc p:first-child {
+    width: 322px;
+    height: 44px;
+
+}
+
+.play .nav8 .items .col:first-child .desc em {
+    color: #36DFBA;
+}
+
+.play .nav8 .items .col .info {
+    width: 364px;
+    height: 270px;
+    background-image: linear-gradient(180deg, #FF6374 1%, #FF7368 98%);
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 46px 27px;
+
+}
+
+.play .nav8 .items .col .info p {
+    width: 310px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 22px;
+    padding: 0;
+}
+
+.local {
+    width: 1355px;
+    height: 456px;
+    padding: 40px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.local h2 {
+    text-align: center;
+    font-family: PingFangSC-Medium;
+    font-size: 36px;
+    color: #1C1F21;
+    line-height: 54px;
+    cursor: default;
+}
+
+.local ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.local ul li {
+    width: 264px;
+    height: 290px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.local ul li:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.local ul li img {
+    display: block;
+    width: 264px;
+    height: 184px;
+}
+
+.local ul li .info {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    padding: 16px 8px;
+    height: 74px;
+    /* padding设为auto是无效的 */
+}
+
+.local ul li .info .desc {
+    font-family: PingFangSC-Medium;
+    font-size: 15px;
+    color: #000000;
+    line-height: 24px;
+    /* width: 242px; */
+    height: 48px;
+}
+
+.local ul li .info .score {
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #FA6400;
+    line-height: 14px;
+}
+
+.local ul li .info .comment {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #000000;
+    line-height: 14px;
+    /* padding-left: 5px; */
+}
+
+/* 动画部分 */
+.content-part img {
+    transition: transform 0.5s;
+}
+
+.content-part img:hover {
+    transform: scale(1.1);
+}
+
+.content-part .items .picbox {
+    overflow: hidden;
+}
+
+.local .picbox {
+    overflow: hidden;
+}
+
+@keyframes up {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(16px);
+    }
+}
+
+.content-part .more .icon-arrow-outline-right {
+    animation: up 0.5s ease 0s infinite alternate;
+}
+
+.eq .cover .coverbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.eq .cover:hover .coverbox {
+    opacity: 1;
+}
+
+.eq .cover .infobox {
+    width: 106px;
+    height: 106px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -53px;
+    top: -106px;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: top 0.5s;
+    box-sizing: border-box;
+}
+
+.eq .cover .wordbox {
+    width: 508px;
+    height: 22px;
+    position: absolute;
+    left: 50%;
+    margin-left: -254px;
+    bottom: -22px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    transition: bottom 0.5s;
+}
+
+.eq .cover:hover .infobox {
+    top: 62px;
+}
+
+.eq .cover:hover .wordbox {
+    bottom: 30px;
+}
+
+footer .footer-top {
+    width: 1355px;
+    height: 220px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+
+footer .footer-top .center,
+footer .footer-bottom .center {
+    width: 1152px;
+    margin: 0 auto;
+    padding: 36px 0 40px;
+}
+
+
+
+
+

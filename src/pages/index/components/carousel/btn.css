@@ -1,0 +1,28 @@
+.banner .nav4 .lefticon {
+    /* display: block; */
+    /* 绝对定位、浮动、overflow：hidden会形成BFC,使行内元素变成块元素 */
+    background:url(images/icons.png) -21px -94px ;
+    width: 28px;
+    height: 44px;
+    position: absolute;
+    left: -42px;
+    top: 50%;
+    margin-top: -22px;
+
+}
+
+.banner .nav4 .righticon {
+    /* display: block; */
+    background:url(images/icons.png) -21px -29px ;
+    width: 28px;
+    height: 44px;
+    position: absolute;
+    right: -866px;
+    top: 50%;
+    margin-top: -22px;
+
+}
+
+.banner .nav4 .lefticon:hover, .banner .nav4 .righticon:hover {
+    opacity: 0.8;
+}

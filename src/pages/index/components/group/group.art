@@ -1,0 +1,61 @@
+ <div class="nav11 navx">
+                <div class="head hd">
+                    <div class="left">
+                        <h2>跟团/半自助游</h2>
+                        <span>旅游需要好的选择，踏实省心</span>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li><a href="">半自助游</a></li>
+                            <li><a href="">城市CityWalk</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="large cover">
+                        <a href="">
+                            <div class="coverbox"></div>
+                            <div class="infobox">城市CityWalk</div>
+                            <div class="picbox"><img src="./images/yh.png" alt=""></div>
+                            <div class="wordbox">天津直飞沙巴5-6天半自助游（自由活动+出海两岛游+市区游+多种星级酒店）</div>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <a href="">
+                            <div class="picbox"><img src="./images/gt2.png" alt=""></div>
+                            <p>成都/西安直飞清迈+拜县6-7天半自助游（2-8人纯玩私家小包团+萌妹子…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <a href="">
+                            <div class="picbox"><img src="./images/gt3.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <a href="">
+                            <div class="picbox"><img src="./images/gt4.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <a href="">
+                            <div class="picbox"><img src="./images/gt5.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small">
+                        <a href="">
+                            <div class="picbox"><img src="./images/gt6.png" alt=""></div>
+                            <p>北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险…</p>
+                        </a>
+                    </div>
+                    <div class="small more">
+                        <a href="">
+                            <p>查看更多<br>精品跟团/半自助游</p>
+                            <div class="icon-arrow-outline-right"></div>
+                            <p>跟团游&nbsp;&nbsp;|&nbsp;&nbsp;半自助游</p>
+                        </a>
+                    </div>
+                </div>
+            </div>

@@ -1,0 +1,66 @@
+footer .footer-bottom {
+    width: 1355px;
+    height: 225px;
+    margin: 0 auto;
+    background-color: #1C1F21;
+}
+
+footer .footer-bottom .name {
+    height: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 31px;
+}
+
+footer .footer-bottom .name h2 {
+    font-size: 46px;
+    color: #FFFFFF;
+    line-height: 46px;
+    margin-right: 21px;
+}
+
+footer .footer-bottom .name span {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 22px;
+    width: 532px;
+    margin-top: 5px;
+}
+
+footer .footer-bottom .moreinfo ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+
+}
+
+footer .footer-bottom .moreinfo ul li {
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+    font-size: 14px;
+    line-height: 15px;
+    height: 15px;
+}
+
+footer .footer-bottom .moreinfo ul li a {
+    color: #FFFFFF;
+}
+
+footer .footer-bottom .moreinfo ul li:first-child {
+    padding-left: 0;
+}
+
+footer .footer-bottom .moreinfo ul li:last-child {
+    border-right: none;
+}
+
+footer .footer-bottom .moreinfo .icp {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+footer .footer-bottom .moreinfo .icp a {
+    color: #FFFFFF;
+}

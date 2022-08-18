@@ -1,0 +1,147 @@
+.banner .nav4 {
+    position: absolute;
+    width: 296px;
+    height: 420px;
+    left: 107px;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+
+}
+
+
+
+.banner .nav4 > ul {
+    width: 296px;
+    height: 420px;
+    
+}
+
+.banner .nav4 > ul > li {
+    position: relative;
+    padding: 11px;
+    box-sizing: border-box;
+    width: 296px;
+    height: 70px;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
+.banner .nav4 > ul > li:hover {
+    background-color: rgba(0,0,0,0.55);
+}
+
+.banner .nav4 > ul > li:last-child {
+    border-bottom: none;
+}
+
+.banner .nav4 > ul > li dl {
+    margin-left: 31px;
+}
+
+.banner .nav4 > ul > li dt {
+    cursor:default;
+    width: 100px;
+    height: 26px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+
+}
+
+.banner .nav4 > ul > li dd {
+    cursor: default;
+}
+
+.banner .nav4 > ul > li dd span {
+    margin-right: 6px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.banner .nav4 > ul > li::before{
+    content: '';
+    position: absolute;
+    background-image: url(images/icons.png);
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    margin-top: -12px;
+}
+
+.banner .nav4 > ul > li.hot::before {
+    background-position: -29px -397px;
+}
+
+.banner .nav4 > ul > li.hk::before {
+    background-position: -27px -347px;
+}
+
+.banner .nav4 > ul > li.japan::before {
+    background-position: -26px -303px;
+}
+
+.banner .nav4 > ul > li.asia::before {
+    background-position: -26px -259px;
+}
+
+.banner .nav4 > ul > li.eu::before {
+    background-position: -25px -215px;
+}
+
+.banner .nav4 > ul > li.au::before {
+    background-position: -26px -168px;
+}
+
+.banner .nav4 > ul > li::after{
+    content: '';
+    position: absolute;
+    background-image: url(./icons8-chevron-right-24.png);
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    margin-top: -12px;
+    right: 4px;
+
+}
+
+.banner .nav4 .right {
+    box-sizing: border-box;
+    padding: 16px;
+    position: absolute;
+    width: 356px;
+    height: 420px;
+    left: 296px;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+
+}
+
+.banner .nav4 .right.current {
+    display: block;
+    /* 这个地方还有问题，鼠标移开后不hover了会消失吗？ 要保持住,所以不用hover */
+}
+
+.banner .nav4 .right dt {
+    height: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+.banner .nav4 .right dd {
+    margin-bottom: 12px;
+}
+
+.banner .nav4 .right dd a {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: justify;
+    line-height: 22px;
+    margin-right: 4px;
+}

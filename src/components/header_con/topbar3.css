@@ -1,0 +1,59 @@
+.topbar3 {
+    width: 1355px;
+    margin: 21px auto;
+}
+
+.topbar3 .nav3 {
+    width: 1152px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* 上面这行删掉也没有影响，为何这些地方都不需要清除浮动？ */
+    display:flex;
+    align-items:center;
+    
+}
+
+.topbar3 .nav3 h1 {
+    cursor: default;
+    float: left;
+    font-family: 'PingFang-SC-Medium';
+    font-size: 24px;
+    color: #20BD9A;
+    line-height: 36px;
+    height: 36px;
+    margin-right: 20px;
+
+}
+
+.topbar3 .nav3 .search  {
+    float: left;
+    width: 405px;
+    height: 30px;
+    position: relative;
+    display:flex;
+    align-items:center;
+}
+
+.topbar3 .nav3 #search {
+    width: 361px;
+    height: 28px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #20BD9A ;
+    /* 取消文本框默认外线 */
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+
+}
+
+.topbar3 .nav3 .btn {
+    width: 32px;
+    position: absolute;
+    right: 0;
+    height: 30px;
+    background-color: #20BD9A;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #20BD9A ;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,197 @@
+.topbar1 {
+    background-color: #2A2A2A;
+    width: 1355px;
+    margin: 0 auto;
+}
+
+.topbar1 .nav1 {
+    width: 1152px;
+    height: 32px;
+    margin: 0 auto;
+    overflow: hidden;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.topbar1 .nav1 .iconbar {
+    width: 225px;
+    height: 20px;
+    /* float: right; */
+    /* 上行无效，因为flex容器里面的子元素被称为项目，项目的float、clear和vertical-align属性将失效。 */ 
+    display: flex;
+    align-items: center;
+}
+
+.iconbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.iconbar ul li {
+    margin-right: 16px;
+}
+
+.iconbar ul li:nth-child(2) {
+    width: 1px;
+    color: #D8D8D8;
+    font-size: 18px;
+    cursor: default;
+}
+
+.iconbar ul li:nth-child(6) a {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.iconbar ul li:last-child {
+    margin-right: 0;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.iconbar ul li:last-child a {
+    color: #FFFFFF;
+
+}
+
+.topbar1 .nav1 > ul {
+    
+    width: 408px;
+    height: 32px;
+    overflow: hidden;
+}
+
+.topbar1 .nav1 > ul > li {
+    float: left ;
+    height: 32px;
+    margin-right: 18px;
+    display:flex;
+    align-items:center;
+    font-size: 12px;
+    /* position: relative; */
+}
+
+.topbar1 .nav1 a {
+    display:flex;
+    align-items:center;
+    color:#fff;  
+    /* 超级链接不从父亲继承颜色 */
+}
+
+.topbar1 .nav1 > ul > li .down {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    /* margin-left: 3px;
+    margin-top: 3px; */
+    transition: transform 0.5s;
+}
+
+.topbar1 .nav1 > ul > li:hover .down {
+    transform: rotate(180deg);
+    /* transform-origin: 3.5px 3.5px; */
+}
+
+.down .cube1 {
+    position: absolute;
+    left: 4px;
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+    background-color: #2A2A2A;
+    top: 2px;
+    z-index: 9999;
+}
+
+.down .cube2 {
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+
+.topbar1 .nav1 > ul > li:hover .down .cube2 {
+    background-color: #20BD9A;
+}
+   
+.topbar1 .nav1 > ul > li:hover > a {
+    color:#20BD9A;
+}
+
+.topbar1 .nav1 > ul > li:last-child {
+    margin-right: 0;
+}
+
+.topbar1 .nav1 > ul > li:nth-child(1) {
+    width: 36px;
+}
+
+.topbar1 .nav1 > ul > li:nth-child(2) {
+    width: 24px;
+}
+
+.topbar1 .nav1 > ul > li:nth-child(3) {
+    width: 38px;
+}
+
+.topbar1 .nav1 > ul > li:nth-child(4) {
+    width: 48px;
+}
+
+.topbar1 .nav1 > ul > li:nth-child(5) {
+    width: 38px;
+}
+
+.topbar1 .nav1 > ul > li:nth-child(6) {
+    width: 68px;
+}
+
+.topbar1 .nav1 > ul > li:nth-child(7) {
+    width: 48px;
+}
+
+.topbar1 .nav1 > ul > li .menu {
+    position: absolute;
+    background-color: #fff;
+    top: 29px;
+    z-index: 9999;
+    display: none;
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.20) ;
+}
+.topbar1 .nav1 > ul > li .menu1 {
+    width: 121px;
+    /* height: 168px; */
+    /* 无需定义高度，有文字内容自然撑开 */
+}
+
+.topbar1 .nav1 > ul > li .menu2 {
+    width: 76px;
+    /* height: 174px; */
+}
+
+.topbar1 .nav1 > ul > li .menu3 {
+    width: 64px;
+    /* height: 66px; */
+}
+
+.topbar1 .nav1 > ul > li:hover .menu {
+    display: block;
+}
+
+.topbar1 .nav1 > ul > li .menu ul {
+    padding: 8px;
+}
+
+.topbar1 .nav1 > ul > li .menu a {
+    font-size: 12px;
+    color: #1C1F21;
+    line-height: 20px;
+}
+
+.topbar1 .nav1 > ul > li .menu a:hover {
+    color: #20BD9A;
+}

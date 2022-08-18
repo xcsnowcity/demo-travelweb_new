@@ -1,0 +1,15 @@
+.ads .nav5 {
+    width: 1152px;
+    margin: 0 auto;
+    height: 110px;
+}
+
+.ads .nav5 a {
+    float: left;
+    margin-right: 32px;
+
+}
+
+.ads .nav5 a:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,52 @@
+<div class="col">
+    <a href="">
+        <div class="picbox"><img src="{{one.url}}" alt=""></div>
+        <div class="desc">
+            <p>{{one.title}}</p>
+            <p>{{one.type}}</p>
+            <p><em>{{one.price}}</em>元起</p>
+        </div>
+    </a>
+    <a href="">
+        <div class="minor">
+            <div class="picbox"><img src="{{items[0].url}}" alt=""></div>
+            <p>{{items[0].title}}</p>
+        </div>
+    </a>
+</div>
+<div class="col">
+    <a href="">
+        <div class="minor">
+            <div class="picbox"><img src="{{items[1].url}}" alt=""></div>
+            <p>{{items[1].title}}</p>
+        </div>
+    </a>
+    <a href="">
+        <div class="minor">
+            <div class="picbox"><img src="{{items[2].url}}" alt=""></div>
+            <p>{{items[2].title}}</p>
+        </div>
+    </a>
+    <a href="">
+        <div class="minor">
+            <div class="picbox"><img src="{{items[3].url}}" alt=""></div>
+            <p>{{items[3].title}}</p>
+        </div>
+    </a>
+</div>
+<div class="col">
+    <a href="">
+        <div class="minor">
+            <div class="picbox"><img src="{{items[4].url}}" alt=""></div>
+            <p>{{items[4].title}}</p>
+        </div>
+    </a>
+    <a href="">
+        <div class="minor info more">
+            <p>查看更多<br>{{more.title}}</p>
+            <div class="icon-arrow-outline-right"></div>
+            <p>{{more.items[0]}}&nbsp;&nbsp;|&nbsp;&nbsp;{{more.items[1]}}&nbsp;&nbsp;|&nbsp;&nbsp;{{more.items[2]}}&nbsp;&nbsp;|&nbsp;&nbsp;{{more.items[3]}}
+            </p>
+        </div>
+    </a>
+</div>

@@ -1,0 +1,33 @@
+@keyframes backtotop {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(15px);
+    }
+}
+
+
+
+.backtop {
+    display: none;
+    cursor: pointer;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #15AF7A;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    opacity: 70%;
+    animation: backtotop 0.5s ease 0s infinite alternate;
+}
+
+.backtop a {
+    font-size: 25px;
+    padding-left: 20px;
+    line-height: 65px;
+    color: white;
+    user-select: none;
+}
